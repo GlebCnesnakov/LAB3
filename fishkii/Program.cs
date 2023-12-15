@@ -24,7 +24,7 @@ namespace fishkii
                         try
                         {
                             choice = Int32.Parse(Console.ReadLine());
-                            if (choice <= 0 || choice > 2) throw new Exception();
+                            if (choice <= 0 || choice > 3) throw new Exception();
                             break;
                         }
                         catch (FormatException)
@@ -49,7 +49,7 @@ namespace fishkii
                                 try
                                 {
                                     q = Int32.Parse(Console.ReadLine());
-                                    if (q != 1) throw new Exception();
+                                    if (q != 1 && q != 2) throw new Exception();
                                     break;
                                 }
                                 catch (FormatException)
@@ -228,7 +228,14 @@ namespace fishkii
                         try
                         {
                             countChips = Int32.Parse(Console.ReadLine());
-                            if (countChips <= 0 || countChips >= 10) throw new Exception();
+                            if (Field.chips != null)
+                            {
+                                if (countChips < 0 || countChips > 10) throw new Exception();
+                            }
+                            else
+                            {
+                                if (countChips <= 0 || countChips > 10) throw new Exception();
+                            }
                             break;
                         }
                         catch (FormatException)
