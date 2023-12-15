@@ -30,10 +30,7 @@ namespace fishkii
             get { return _position; }
             set { _position = value; }
         }
-        public void Move(Dice dice)
-        {
-            Position += dice.Count;
-        }
+
         public Chip(ColorOfChip color, int position)
         {
             Color = color;
