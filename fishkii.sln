@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33801.468
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fishkii", "fishkii\fishkii.csproj", "{46CBA49F-3187-4D76-B6FD-A39736B806E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fishkiiTests", "fishkiiTests\fishkiiTests.csproj", "{5A1723DD-35F9-4947-A32E-AE8300279EC2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46CBA49F-3187-4D76-B6FD-A39736B806E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46CBA49F-3187-4D76-B6FD-A39736B806E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46CBA49F-3187-4D76-B6FD-A39736B806E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46CBA49F-3187-4D76-B6FD-A39736B806E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A1723DD-35F9-4947-A32E-AE8300279EC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A1723DD-35F9-4947-A32E-AE8300279EC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A1723DD-35F9-4947-A32E-AE8300279EC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A1723DD-35F9-4947-A32E-AE8300279EC2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9F7F2644-12CD-48BB-AF43-2E66ACBC386C}
+	EndGlobalSection
+EndGlobal
